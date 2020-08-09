@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Article,Tag,Editor
+from .models import Article,Tag
 
 #Register models
 class ArticleAdmin(admin.ModelAdmin):
@@ -9,4 +9,3 @@ class ArticleAdmin(admin.ModelAdmin):
 # Register your models here.
 admin.site.register(Article,ArticleAdmin)
 admin.site.register(Tag)
-admin.site.register(Editor)
